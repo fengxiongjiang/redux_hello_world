@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-//redux
+//redux ********************************************************************************
 import { applyMiddleware, createStore } from 'redux'
 import axios from 'axios'
 import logger from 'redux-logger'
@@ -51,7 +51,7 @@ store.dispatch({
 })
 //ACTION
 
-//redux
+//redux ********************************************************************************
 
 class App extends Component {
   render() {
